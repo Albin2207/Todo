@@ -4,7 +4,7 @@ import 'package:todo_app_firebase/controllers/database_service.dart';
 
 
 class AddTaskPage extends StatefulWidget {
-  const AddTaskPage({Key? key}) : super(key: key);
+  const AddTaskPage({super.key});
 
   @override
   _AddTaskPageState createState() => _AddTaskPageState();
